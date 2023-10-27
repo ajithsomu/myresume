@@ -1,0 +1,140 @@
+<html>
+<head>
+<div id="htmlContent">
+<title>RESUME</title>
+</head>
+<body>
+<style>
+table,th,td{
+border:2px solid black;
+border-collapse:collapse;
+}
+.bottomright {
+ position:absolute;
+ bottom:-600px;
+ right:650px;
+font-size:16px;
+}
+.topright {
+position: absolute;
+top: 140px;
+right:-00px;
+font-size: 20px;
+}
+a{
+text-decoration: none;
+color:black;
+}
+#signature {
+position: absolute;
+bottom: -600px;
+right:100px;
+font-size: 20px;
+}
+span{
+color:blue;
+}
+
+.only-print{display:
+none!important}@media print
+{.no-print,.no-print
+*{display:none!important}.only-print{display:block!important}
+footer{position:fixed;bottom:0}
+header{position:fixed;top:0}}
+</style>
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff"></div>
+  <br><br>
+  <h1><center>Resume</center></h1>
+  <font size="5">Ajithkumar.K.S<br></font>
+  <font size="5">S/o Somasundaram.K.R<br></font>
+  <font size="5">355,S.K Thottam,Kaliyur</font>
+  <div class="topright corner"><a href="#">Mail Id:<span>ajithkumark644@gmail.com</span></a><br><a href="https://github.com/ajitsomu/">GitHub Id:<span>ajithsomu</span></a><br>Contact Number:6382628685</div>
+  <hr/>
+<p><h3>Objectives</h3></p>
+  <ul>
+  &nbsp;&nbsp;&nbsp;&nbsp;To build a career in a growing organization,where I can get the opportunities to prove my abilities by accepting challenges, fulfilling the organizational goal and climb the career ladder through continuous learning and commitment.
+  </ul>
+<h3>Education </h3>
+         <table border="2" style="width:90%">
+    <tr>
+      <th> Course Name</th>
+      <th> Instuitution</th>
+      <th> University</th>
+      <th>Year of Passing</th>
+     <th> Percentage</th>
+      </tr>
+      <tr>
+        <td>BSC.Computer Science</td>
+      <td>Kaamadhenu Arts and Science College</td>
+      <td>Bharathiar University</td>
+      <td> Pursuing</td>
+      <td>80% till 4th Sem</td>
+    </tr>
+    <tr>
+      <td>HSC</td>
+    <td>Sri Ragavendra Matriculation Hr Sec School</td>
+      <td>State Board</td>
+      <td>2021</td>
+      <td>69.19%</td>
+    </tr>
+   <tr>
+       <td>SSLC</td>
+     <td>Sri Ragavendra Matriculation Hr Sec School</td>
+        <td>State Board</td>
+        <td>2019</td>
+        <td>55.8%</td>
+      </tr>
+    </table>
+ <p class="head"><h3>Programming Skills</h3></p>
+  <ul>
+      <li>C</li>
+      <li>Java</li>
+      <li>My SQL</li>
+      <li>HTML & CSS</li>
+      <li>Linux Shell Programming</li>
+      <li> GitHub</li>
+  </ul>
+  <p class="head"><h3>Programming Summery</h3></p>
+  <ul>
+  <li>I have learnt<b> C </b> and <b> Java </b> in looping concept and recursion condition.</li>
+  <li>Curd in <b> Database </b> </li>
+  <li> Basic working in <b> Google Cloud shell </b></li>
+  <li> By using<b> SQL </b> and <b> My SQL </b> to learn database </li>
+  <li> I have learnt basic <b> Linux </b> commands.
+  </ul><br><br>
+<p><h3>Interests</h3></p>
+<ul>
+  <li>Traveling</li>
+  <li>Reading Story Books</li>
+  </ul>
+ <p class="head"><h3>Extra Curricular Activity </h3>
+  <ul>
+    <li> Online certificate in Photo Shoot</li>
+    <li>Online certificate in Python</li>
+    <li>Certifact in Communicative English</li>
+  </ul>
+<p class="head"><h3>Declaration</h3>
+ &nbsp;&nbsp;&nbsp;&nbsp;I affirm that all the above furnished information are true and correct to the best of my Knowledge and belief.
+<p class="head"><h3><b>Date:</b></h3></p>
+<p class="head"><h3><b>Place:</b></h3></p> <p id="signature"><b>SIGNATURE</b></p>
+</body>
+</div>
+<br>
+<center>
+<button onclick="printDiv('htmlContent')">Print / Save Pdf</button>
+</center>
+<script type="text/javascript">
+
+      function printDiv(div_id)
+        {
+          var divToPrint=document.getElementById(div_id);
+          var newWin=window.open('','Print-Window');
+          newWin.document.open();
+          newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+          newWin.document.close();
+          setTimeout(function() { newWin.close();},10);
+        }
+</script>
+</html>
